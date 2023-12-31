@@ -21,10 +21,17 @@ This project analyzes Twitter data to understand public sentiment during the lat
 
 ## Images and Visualizations
 - **Topic Modelling (n=3)**:
-  ![Topic Modelling (n=3)](link_to_sentiment_distribution_image)
+  ![Topic Modelling (n=3)](https://github.com/comuilleoir/COVID-Sentiment/blob/main/Project%20Images/Topic%20Modelling%20n%3D3.png)
 
-- **Topic Analysis Visualization**:
-  ![Topic Analysis of COVID-19 Tweets](link_to_topic_analysis_image)
+- **Top 10 word/wordpairs per topic**:
+  ![Top 10 word/wordpairs per topic](https://github.com/comuilleoir/COVID-Sentiment/blob/main/Project%20Images/Topic%20Top%2010%20words.png)
+
+- **Tweets per Sentiment per topic**:
+  ![Tweets per Sentiment per topic](https://github.com/comuilleoir/COVID-Sentiment/blob/main/Project%20Images/Tweets%20per%20Sentiment%20per%20Topic.png)
+
+- **Tweets per Emotion per topic**:
+  ![Tweets per Emotion per topic](https://github.com/comuilleoir/COVID-Sentiment/blob/main/Project%20Images/Tweets%20per%20emotion%20per%20topic.png)
+
 
 ## Conclusion and Future Work
 - **Conclusion:** The study provides a comprehensive view of public sentiment and discussions on Twitter during the late stages of COVID-19.
