@@ -25,7 +25,7 @@ This project analyzes Twitter data to understand public sentiment during the lat
 
 - **Top 10 word/wordpairs per topic**:
 
-  ![Top 10 word/wordpairs per topic](https://github.com/comuilleoir/COVID-Sentiment/blob/main/Project%20Images/Topic%20Top%2010%20words.png)
+  ![Top 10 word/wordpairs per topic](https://github.com/comuilleoir/COVID-Sentiment/blob/main/Project%20Images/Topic%20Top%2010%20words%20v2.png)
 
 - **Tweets per Sentiment per topic**:
   ![Tweets per Sentiment per topic](https://github.com/comuilleoir/COVID-Sentiment/blob/main/Project%20Images/Tweets%20per%20Sentiment%20per%20Topic.png)
