@@ -1,18 +1,24 @@
 # Sentiment Analysis During the Late Stages of the COVID-19 Pandemic
 
 ## Project Overview
-This project analyzes Twitter data to understand public sentiment during the late stages of the COVID-19 pandemic. By leveraging Apache Spark for data processing and Python for analysis, it aims to decipher the public discourse and sentiment trends related to COVID-19.
+This project aims to analyze public sentiment during the late stages of the COVID-19 pandemic through Twitter data. Utilizing a combination of an Apache Spark cluster for data processing, Python for analysis, Tweepy for Twitter API interactions, and Socket programming for data streaming, this study provides a comprehensive view of public discourse and emotional reactions on social media. Our methodology integrates advanced machine learning models for sentiment analysis and topic modeling, offering unique insights into public sentiment trends.
 
 ## Methodology
-- **Data Sources:** Twitter API v2 for collecting 137,918 tweets.
-- **Data Preprocessing:** Filtering relevant COVID-19 related tweets, cleaning data for analysis.
-- **Models Used:** Sentiment analysis models and Latent Dirichlet Allocation for topic modeling.
-- **Analysis Techniques:** Natural Language Processing for text analysis, sentiment scoring, and topic identification.
-- **Evaluation Metrics:** Sentiment polarity scores and topic coherence scores.
+- **Data Collection**: Utilizing the `Twitter Stream Socket` script, we collect Twitter data in real-time, leveraging Tweepy and Socket programming for efficient data streaming.
+- **Data Processing and Analysis**: The `Twitter Spark Streaming` script processes the streamed data using Apache Spark. This involves data cleaning, preprocessing, and structuring for analysis.
+- **Sentiment Analysis and Topic Modeling**: Employing machine learning models, we conduct sentiment analysis to classify tweets into various emotional categories. Additionally, Latent Dirichlet Allocation is used for topic modeling to identify prevalent themes in the dataset.
+- **Data Source**: Analysis of 137,918 tweets, providing a broad spectrum of public opinion.
 
-## Results and Observations
-- **Performance Metrics:** High accuracy in sentiment classification and topic relevance.
-- **Key Findings:** The analysis uncovered diverse sentiments and multiple topics in public tweets about COVID-19, highlighting the varied public opinion during the pandemic.
+## Results
+- **Performance Metrics**: The project achieved high accuracy in sentiment classification and topic relevance, demonstrating the effectiveness of our analytical approach.
+- **Key Findings**: Our analysis revealed diverse public sentiments and a range of topics discussed in relation to COVID-19. This includes public concerns, misinformation trends, and emotional reactions, providing valuable insights into public discourse during the pandemic.
+
+## Technologies Used
+- **Python**: For scripting and data analysis.
+- **Apache Spark**: Cluster for large-scale data processing.
+- **Tweepy**: To interact with Twitter API for data streaming.
+- **Socket Programming**: For establishing network connections and streaming data.
+- **Machine Learning Models**: For sentiment analysis and topic modeling.
 
 ## Repository Contents
 - `Data`: Folder containing a processed dataset sample.
@@ -34,6 +40,6 @@ This project analyzes Twitter data to understand public sentiment during the lat
   ![Tweets per Emotion per topic](https://github.com/comuilleoir/COVID-Sentiment/blob/main/Project%20Images/Tweets%20per%20emotion%20per%20topic.png)
 
 
-## Conclusion and Future Work
-- **Conclusion:** The study provides a comprehensive view of public sentiment and discussions on Twitter during the late stages of COVID-19.
-- **Future Work:** Future research could focus on multi-lingual sentiment analysis and real-time monitoring of public opinion on various topics.
+## Limitations and Future Work
+- **Language Bias**: The current dataset is limited to English-language tweets, which may not represent the global sentiment accurately.
+- **Future Directions**: Future iterations could include multi-language support, incorporating more advanced sentiment analysis techniques, and expanding the dataset to cover a wider range of topics and timeframes.
