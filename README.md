@@ -20,8 +20,8 @@ This project analyzes Twitter data to understand public sentiment during the lat
 - `Project Images`: Features charts and plots providing insights from the analysis.
 
 ## Images and Visualizations
-- **Sentiment Distribution**:
-  ![Sentiment Distribution over Time](link_to_sentiment_distribution_image)
+- **Topic Modelling (n=3)**:
+  ![Topic Modelling (n=3)](link_to_sentiment_distribution_image)
 
 - **Topic Analysis Visualization**:
   ![Topic Analysis of COVID-19 Tweets](link_to_topic_analysis_image)
